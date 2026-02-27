@@ -5,12 +5,13 @@ This is a full-stack project with separate frontend and backend folders.
 ## 📁 Project Structure
 
 ```
-project/
+Virtual_Assistant_FullStack/
 │
-├── frontend/     # Frontend application (to be added)
+├── frontend/     # Frontend application (REACT-to be implemented)
 ├── backend/      # Express + MongoDB backend
+├── .gitignore
 └── README.md
-```
+
 
 ---
 
@@ -35,6 +36,7 @@ Inside the backend folder create a `.env` file and add:
 ```
 PORT=8000
 MONGODB_URL=your_mongodb_connection_string
+JWT_SECRET=your_secret_key
 ```
 
 ### 4️⃣ Start the server
@@ -51,6 +53,21 @@ http://localhost:8000
 
 ---
 
+🔐 Authentication APIs
+
+The backend includes user authentication functionality:
+
+✅ User Signup
+
+✅ User Login
+
+✅ User Logout
+
+✅ JWT-based Authentication
+
+✅ Password Hashing
+
+
 ## 🛠 Tech Stack
 
 ### Backend
@@ -59,8 +76,15 @@ http://localhost:8000
 - MongoDB
 - Mongoose
 - Dotenv
+-Bcrypt
+-JWT
 
 ---
+
+### Frontend (Planned)
+-React.js
+-Axios
+-Tailwind / CSS
 
 ## 📌 Author
 
