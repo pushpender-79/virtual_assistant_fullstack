@@ -7,8 +7,8 @@ This is a full-stack project with separate frontend and backend folders.
 ```
 Virtual_Assistant_FullStack/
 │
-├── frontend/     # Frontend application (REACT-to be implemented)
-├── backend/      # Express + MongoDB backend
+├── frontend/     # Frontend application (Signin and Signup  implemented)
+├── backend/      # Express + MongoDB backend(Authentication APIs)
 ├── .gitignore
 └── README.md
 
@@ -53,7 +53,26 @@ http://localhost:8000
 
 ---
 
-🔐 Authentication APIs
+💻 Frontend Setup
+1️⃣ Navigate to frontend folder
+```bash
+cd frontend
+```
+2️⃣ Install dependencies
+```bash
+npm install
+```
+3️⃣ Start the frontend
+```bash
+npm run dev
+```
+
+Frontend will run on:
+
+http://localhost:5173
+
+
+🔐 Authentication Features
 
 The backend includes user authentication functionality:
 
@@ -65,7 +84,9 @@ The backend includes user authentication functionality:
 
 ✅ JWT-based Authentication
 
-✅ Password Hashing
+✅ Password Hashing(Bcrypt)
+
+✅ Protected Routes(Frontend)
 
 
 ## 🛠 Tech Stack
@@ -81,10 +102,23 @@ The backend includes user authentication functionality:
 
 ---
 
-### Frontend (Planned)
+### Frontend
 -React.js
+-React Router
 -Axios
 -Tailwind / CSS
+
+Tailwind
+
+### 📌 Future Improvements
+
+Virtual Assistant Chat UI
+
+AI Integration
+
+User Dashboard
+
+Deployment (Frontend + Backend)
 
 ## 📌 Author
 
